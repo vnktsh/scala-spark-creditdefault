@@ -72,6 +72,8 @@ customer to default in the future?
 | 4.0| 3| 1.0| 33.0|
 
 ##Prediction
+Build and compare prediction models that can predict whether the customer is going to default in
+the next month based on his/her history for the previous 6 months.
 
 Machine learning classifier  | Accuracy 
 ----------|-------
