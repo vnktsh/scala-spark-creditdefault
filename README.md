@@ -1,12 +1,12 @@
 # Spark app to analyze credit card default data
 
 ## About project
-Customers who own credit cards are expected to pay off their balances monthly. But, sometimes they faild to pay the bill and default.
+Customers who own credit cards are expected to pay off their balances monthly. But, sometimes they failed to pay the bill and default.
 Banks need to know the risk analysis of defaulted customers and predict likelihood of future payments or non-payments and 
 act accordingly.
 
 The dataset contains information about customers for past 6 month payment history
-and their personal attrubutes.
+and their personal attributes.
 
 Each row has following columns.
 
@@ -71,7 +71,10 @@ customer to default in the future?
 | 3.0| 4| 2.0| 50.0|
 | 4.0| 3| 1.0| 33.0|
 
+##Prediction
 
-
-
-
+Machine learning classifier  | Accuracy 
+----------|-------
+Decision Tree    | 0.7417
+Random Forest      | 0.7887
+Naive Bayes | 0.7042
